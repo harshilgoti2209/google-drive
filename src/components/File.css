@@ -1,0 +1,26 @@
+.file {
+  width: 175px;
+  margin: 10px;
+  border-radius: 7px;
+  background-color: antiquewhite;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.file-photo {
+  width: 100%;
+  height: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.file-metadata {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 8px;
+}
+.file-info {
+  display: flex;
+  flex-direction: column;
+}
